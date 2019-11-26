@@ -1,0 +1,65 @@
+﻿body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 1200px;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    font-variant: small-caps;
+    color: olive;
+}
+
+nav{
+    background-color: orange;
+    padding: 7px;
+    text-align: center;
+    width: 72%;
+    display: inline-block;
+}
+
+nav a{
+    text-decoration: none;
+    color: yellow;
+}
+
+aside{
+    background-color: lightgray;
+    float: right;
+    width: 22%;
+    border-left: 1px solid black;
+    padding: 10px;
+}
+
+article{
+    margin: 10px;
+    border: 1px solid green;
+    border-radius: 5px;
+    width: 68%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+aside img{
+    border: 1px solid black ;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px gray;
+    margin-left: 35px;
+}
+
+article img{
+    float: right;
+    border: solid black 3px;
+    margin-left: 5px;
+}
+
+main img:nth-child(2){
+    float: left;    
+    border: solid black 3px;
+    margin: 5px;
+}
+
+aside p::first-letter{
+    font-size: 40px;
+    color: gray;
+}
